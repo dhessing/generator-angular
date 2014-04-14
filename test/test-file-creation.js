@@ -53,6 +53,7 @@ describe('Angular generator', function () {
                     'app/styles/main.scss',
                     'app/views/main.html',
                     ['.bowerrc', /"directory": "app\/bower_components"/],
+                    'readme.md',
                     'Gruntfile.js',
                     'package.json',
                     ['bower.json', /"name":\s+"temp"/],

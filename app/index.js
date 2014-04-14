@@ -256,6 +256,7 @@ Generator.prototype.packageFiles = function () {
   this.template('../../templates/common/_bower.json', 'bower.json');
   this.template('../../templates/common/_package.json', 'package.json');
   this.template('../../templates/common/Gruntfile.js', 'Gruntfile.js');
+  this.template('../../templates/common/_readme.md', 'readme.md');
 };
 
 Generator.prototype.imageFiles = function () {
